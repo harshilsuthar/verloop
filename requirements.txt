@@ -1,0 +1,5 @@
+django==4.0.4
+python-dotenv==0.20.0
+djangorestframework==3.13.1
+googlemaps==4.6.0
+djangorestframework-xml==2.0.0

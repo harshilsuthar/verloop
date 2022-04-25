@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "16eed3a7-8d11-4383-8452-fbe6d5cd3bc7",
+		"name": "Verloop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Coordinates",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "address",
+							"value": "103 palm avenue, t.p 13, fulwadi jakatnaka, valdodara 390024",
+							"type": "text"
+						},
+						{
+							"key": "output_format",
+							"value": "xml",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/getAddressDetails/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"getAddressDetails",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
